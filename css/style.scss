@@ -147,10 +147,17 @@
   }
 
   .exprience{
+   > ul li{
+      margin-bottom: 10px;
+    }
     .exprience-info{
       p{
         font-size: 18px;
         font-weight: bold;
+        a{
+          font-size: 14px;
+          color:#be2b81;
+        }
       }
       span{
         font-size:16px;
@@ -159,8 +166,6 @@
       ul{
         line-height: 1.8;
         margin:15px 0;
-        li{
-        }
       }
     }
 

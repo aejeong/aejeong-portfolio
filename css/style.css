@@ -168,9 +168,16 @@ a {
   font-weight: 700;
   margin-right: 15px;
 }
+.info .exprience > ul li {
+  margin-bottom: 10px;
+}
 .info .exprience .exprience-info p {
   font-size: 18px;
   font-weight: bold;
+}
+.info .exprience .exprience-info p a {
+  font-size: 14px;
+  color: #be2b81;
 }
 .info .exprience .exprience-info span {
   font-size: 16px;
