@@ -177,7 +177,13 @@ a {
 }
 .info .exprience .exprience-info p a {
   font-size: 14px;
+}
+.info .exprience .exprience-info p a:first-child {
   color: #be2b81;
+}
+.info .exprience .exprience-info p a:last-child {
+  margin-left: 5px;
+  color: black;
 }
 .info .exprience .exprience-info span {
   font-size: 16px;

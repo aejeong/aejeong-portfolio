@@ -156,7 +156,13 @@
         font-weight: bold;
         a{
           font-size: 14px;
+        }
+        a:first-child{
           color:#be2b81;
+        }
+        a:last-child{
+          margin-left: 5px;
+          color: black;
         }
       }
       span{
