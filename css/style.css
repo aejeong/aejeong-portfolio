@@ -206,10 +206,12 @@ a {
 }
 .info .pj-preview ul {
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
 }
 .info .pj-preview ul li {
+  flex: 0 1 auto;
   width: 33.33%;
-  float: left;
   box-sizing: border-box;
   padding-right: 8px;
 }
