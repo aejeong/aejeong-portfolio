@@ -232,15 +232,15 @@ a {
 .info .pj-preview ul li:hover img {
   transform: scale(1.1);
 }
-.info .pj-preview ul a {
+.info .pj-preview ul .go-to {
   background: #fff;
 }
-.info .pj-preview ul a .img-wrap {
+.info .pj-preview ul .go-to .img-wrap {
   overflow: hidden;
   position: relative;
   padding-bottom: 60%;
 }
-.info .pj-preview ul a .img-wrap:before {
+.info .pj-preview ul .go-to .img-wrap:before {
   opacity: 0;
   position: absolute;
   content: "";
@@ -252,7 +252,7 @@ a {
   z-index: 2;
   transition: 0.3s;
 }
-.info .pj-preview ul a .img-wrap .link {
+.info .pj-preview ul .go-to .img-wrap .link {
   transition: 0.3s;
   width: 50px;
   height: 50px;
@@ -269,32 +269,43 @@ a {
   line-height: 50px;
   font-size: 18px;
 }
-.info .pj-preview ul a .txt-wrap {
+.info .pj-preview ul .txt-wrap {
   padding: 20px 15px;
   background: #fff;
   font-size: 14px;
 }
-.info .pj-preview ul a .txt-wrap strong {
+.info .pj-preview ul .txt-wrap .extra-link{
+  padding:3px 0;
+}
+
+.info .pj-preview ul .txt-wrap .extra-link a{
+  font-weight: 700;
+  color: #f27474;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.info .pj-preview ul .txt-wrap strong {
   font-weight: 500;
   padding-bottom: 10px;
   display: inline-block;
 }
-.info .pj-preview ul a .txt-wrap .date-wrap {
+.info .pj-preview ul .txt-wrap .date-wrap {
   font-weight: 300;
   overflow: hidden;
 }
-.info .pj-preview ul a .txt-wrap .date-wrap .tit {
+.info .pj-preview ul .txt-wrap .date-wrap .tit {
   float: left;
 }
-.info .pj-preview ul a .txt-wrap .date-wrap .date {
+.info .pj-preview ul .txt-wrap .date-wrap .date {
   float: right;
 }
-.info .pj-preview ul a .txt-wrap .skill-wrap {
+.info .pj-preview ul .txt-wrap .skill-wrap {
   overflow: hidden;
   font-size: 10px;
   padding-top: 10px;
 }
-.info .pj-preview ul a .txt-wrap .skill-wrap span {
+.info .pj-preview ul .txt-wrap .skill-wrap span {
   border-radius: 15px;
   display: inline-block;
   vertical-align: top;
@@ -303,7 +314,7 @@ a {
   float: left;
   margin-right: 10px;
 }
-.info .pj-preview ul a img {
+.info .pj-preview ul .go-to img {
   position: absolute;
   object-fit: cover;
   width: 100%;
