@@ -1,3 +1,5 @@
+var year = document.querySelector('.footer-year');
+
 var hamburger = document.querySelector('.hamburger');
 var side = document.querySelector('aside')
 var container = document.querySelector('.container');
@@ -29,3 +31,5 @@ hamburger.addEventListener('click',function(){
 document.addEventListener('mousemove',function(e){
   cursor.style.transform = 'translate('+ (e.clientX - 5) +'px,'+ (e.clientY -5) +'px)';
 })
+
+year.innerHTML = new Date().getFullYear();

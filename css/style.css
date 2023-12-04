@@ -302,7 +302,7 @@ a {
 }
 .info .pj-preview ul .txt-wrap .skill-wrap {
   overflow: hidden;
-  font-size: 10px;
+  font-size: 12px;
   padding-top: 10px;
 }
 .info .pj-preview ul .txt-wrap .skill-wrap span {
@@ -311,8 +311,8 @@ a {
   vertical-align: top;
   padding: 1px 8px;
   background: #ccc;
-  float: left;
   margin-right: 10px;
+  margin-bottom: 8px;
 }
 .info .pj-preview ul .go-to img {
   position: absolute;
